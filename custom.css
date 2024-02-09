@@ -14,7 +14,6 @@ html {
 
 
 
-
 .custom-background {
     position: relative;
     height: 100%; /* Adjust as needed */
@@ -73,8 +72,8 @@ html {
 }
 
  .custom-height {
-    height: 300px; /* Set the desired height here */
-    border: 1px solid #ddd; /* Optional: Add a border for better visualization */
+    height: 300px;
+    border: 1px solid #ddd; 
   }
 
 
@@ -101,3 +100,22 @@ html {
    
   
 }
+
+
+.text-resizable-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the container takes up the full height */
+}
+
+.text-resizable {
+  max-width: 100%;
+  padding: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ddd;
+  font-size:25px;
+}
+
+
