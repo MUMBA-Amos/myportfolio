@@ -14,6 +14,7 @@ html {
 
 
 
+
 .custom-background {
     position: relative;
     height: 100%; /* Adjust as needed */
@@ -32,6 +33,7 @@ html {
     background-repeat: no-repeat;
     filter: blur(0px);
     border: 0;
+    
 }
 
 .full-height {
@@ -44,7 +46,7 @@ html {
 
 .p1 {
     position: relative; /* Change from 'center' to 'relative' */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Open Sans", sans-serif;
     z-index: 3; /* Ensure the paragraph is above the blurred background */
     font:bold;
     top:50px;
@@ -54,51 +56,58 @@ html {
 
 
 
-
-
-.full-height {
-    height: 100vh; /* Full viewport height */
-}
-.half-height {
-    height: 30vh; /* Half of viewport height */
-}
-
-
 .card{
     position: relative;
     top: 100px;
     left:50px;
- 
+
+    
 }
+
+
 
  .custom-height {
     height: 300px;
     border: 1px solid #ddd; 
   }
 
-
+h6{
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+}
 
 
 .icons {
     position: relative;
     top: 100px;
-    left: 100px;
+    left: 89px;
     height: 100px;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 
+.h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    left:500px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    font-size:25px;
+}
+
 
 
 .h33{
     position:relative;
     left: 530px;
-    top: 10px;
-   
-  
+    top: 10px; 
 }
 
 
@@ -113,9 +122,14 @@ html {
 .text-resizable {
   max-width: 100%;
   padding: 1rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ddd;
-  font-size:25px;
+  font-size:20px;
 }
 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Invert the color to make it black */
+}
 
